@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+out/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Cache and temporary files
+.cache/
+.parcel-cache/
+.eslintcache
+.stylelintcache
+*.tmp
+*.temp
+
+# Editor files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Testing
+coverage/
+
+# React specific (if using React)
+.eslintcache
+
+# Vite specific (if using Vite)
+dist-ssr/
+
+# Next.js specific (if using Next.js)
+.next/
+out/
+
+# Storybook
+storybook-static/
